@@ -49,6 +49,16 @@ nav a:hover {
     background-color: #E84A5F;
 }
 
+#links a {
+    text-decoration: none;
+    padding: .5em 2em;
+    color: #d9ed92;
+}
+
+#links a:hover {
+    background-color: #E84A5F;
+}
+
 header {
     padding: 2em 0;
     text-align: center;
@@ -77,6 +87,29 @@ div>ul {
     list-style-type: none;
 }
 
+#about {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-rows: auto;
+
+    text-align: center;
+
+    grid-column-gap: 1em;
+
+}
+
+
+
+#about div {
+
+    padding: 1em;
+
+}
+
+
 #projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -88,6 +121,10 @@ div>ul {
 #projects article {
     background: #4a707a;
     padding: 1em;
+}
+
+#contact p {
+    color: #d9ed92;
 }
 
 h1,

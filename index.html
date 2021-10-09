@@ -4,6 +4,7 @@
     <head>
         <title>Crystal's Portfolio</title>
         <link rel="stylesheet" href="/style.css">
+        <!-- <link rel="stylesheet" href="style2.css">-->
     </head>
 
     <body>
@@ -48,7 +49,6 @@
                 <div>
                     <img src="IMG/Prof_Pic.jpg" alt="ProfilePic">
                 </div>
-
             </section>
 
             <section id="myProjects">
@@ -109,6 +109,81 @@
                     </article>
                 </div>
             </section>
+            <!--     
+            <div class="w3-sidebar w3-bar-block w3-card" style="width:130px">
+                <h5 class="w3-bar-item w3-cyan">My Projects</h5>
+                <button class="w3-bar-item w3-button tablink" onclick="openProject(event, 'bookApp')">Class of
+                    Choice</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openProject(event, 'vPet')">Virtual Pet</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openProject(event, 'tribute')">Tribute
+                    Page</button>
+            </div>
+
+            <div style="margin-left:130px">
+                <div id="bookApp" class="w3-container project" style="display:none">
+                    <article id="bookApp">
+                        <h4>Class of Choice</h4>
+                        <p>
+                        </p>
+                        <div class="container-img">
+                            <a target="_blank"
+                                href="https://github.com/2021-Fall-Cohort/m1-class-of-your-choice-CrysD5.git">
+                                <img src="IMG/Screenshot 2021-09-30 232929.png" alt="BookAppRepo" class="image"></a>
+                            <div class="img-overlay">
+                                <p class="text">Class of Choice</p>
+                            </div>
+                        </div>
+                        <br>
+                        Book Class: track number of books read, keep list of favorite books, favorite genre, favorite
+                        author, keep a reading list, remove books from the list after they are read
+                        <p></p>
+                    </article>
+                </div>
+
+                <div id="vPet" class="w3-container project" style="display:none">
+                    <article id="vPet">
+                        <h4>Virtual Pet</h4>
+
+                        <div class="container-img">
+                            <a target="_blank" href="https://github.com/2021-Fall-Cohort/m1-virtual-pet-caution.git">
+                                <img src="\IMG\Screenshot 2021-10-07 195850.png" alt="vPetRepo" class="image"></a>
+                            <div class="img-overlay">
+                                <p class="text">Virtual Pet</p>
+                            </div>
+                        </div>
+                        <br>
+                        A console game very similar to Cyberpets and Tamagotchi from our childhood. The user is given
+                        the
+                        ability to interact with one or more pets or robots. Feeding them, playing with them or taking
+                        them to the doctor.
+                        <p></p>
+                    </article>
+
+                </div>
+
+                <div id="tribute" class="w3-container project" style="display:none">
+                    <article id="tribute">
+                        <h4>Tribute Page</h4>
+                        <p>
+                        </p>
+                        <div class="container-img">
+                            <a target="_blank" href="https://codepen.io/crysd5/full/BapLPqz">
+                                <img src="IMG/tributePage.png" alt="codePen" class="image"></a>
+                            <div class="img-overlay">
+                                <p class="text">ATEEZ</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p>Created a tribute page for my favorite band using HTML and CSS. </p>
+                    </article>
+                </div>
+                </section>
+
+            </div>
+
+            </div>
+ -->
+
 
             <section>
                 <div id="skills">
@@ -192,6 +267,25 @@
                 </div>
 
             </section>
+
+            <!--                       
+       <script>
+            function openProject(evt, projectName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("project");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-teal", "");
+                }
+                document.getElementById(projectName).style.display = "block";
+                evt.currentTarget.className += " w3-teal";
+            }
+        </script> 
+    -->
+
         </main>
 
 
